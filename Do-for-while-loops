@@ -1,0 +1,24 @@
+nbaTeams = "Warriors can battle in and out but the Warriors need to come together as a team! So if the Warriors can come together we will win!"; 
+
+var myTeam = "Warriors"; 
+var team = []
+
+for(var i = 0; i < nbaTeams.length; i++) {
+    if (nbaTeams[i] === "W") {
+        for(var j = i; j < (myTeam.length + i); j++) {
+            team.push(nbaTeams[j]);
+        }
+    }
+}
+
+if (team.length === 0) {
+    console.log("We didnt find your team?"); 
+} else {
+    console.log(team);
+}
+
+var loopCondition = false; 
+
+do {
+    console.log("Warriors can be king and will never be " + loopCondition + "!");
+} while (loopCondition);

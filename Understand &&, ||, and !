@@ -1,0 +1,40 @@
+// This talks about how us the && (AND) operation where it takes 2 things to be true together in order for it to work. 
+var hungry = true;
+var foodHere = true;
+
+var eat = function() {
+  if(hungry && foodHere) {
+  return true;
+} else {
+  return false;
+    }
+};
+eat();
+
+
+// This talks about how you can use the || (OR) operation where it takes one thing to be true in order to process. 
+var tired = true
+var bored = false
+
+var nap = function() {
+  if (tired || bored){
+  return true;
+} else {
+  return false;
+    }
+};
+nap();
+
+
+
+// This talks about how to use ! (NOT) operation. So it turns anything that is true to false or false to true. 
+var programming = false
+
+var happy = function() {
+  if (!(programming)){
+    return true;
+  } else {
+    return false;
+  }
+};
+happy();

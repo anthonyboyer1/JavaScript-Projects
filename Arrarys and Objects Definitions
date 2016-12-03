@@ -1,0 +1,9 @@
+//Heterogenous Arrays: Means that arrays can have a mixture of elements: 
+heterogenousArray = ["Warrriors", 30, "Steph Curry", 1]
+
+//Multidimensional Arrays: Means arrays can have arrays within arrays. For example a 2x2 or 3x3 dimensional array
+multidimensionalArray = [["Warriors", "Stephen Curry", 30, "73-9"], ["Cavs", "Lebron James", 23, "2016 Champs"], [3,100,2,4]]
+
+Jagged Arrays: Means Arrays could be differeny in the number of elements within any array. For example in a multidimensional Array you have arrays within arrays that can have any number of elements. Meaning each array doesn't need the exact number of elements as the rest. 
+
+jaggedArray = [["Warriors", "Stephen Curry"],["Cavs", "Lebron", "2016 champs"], [30, 1]]

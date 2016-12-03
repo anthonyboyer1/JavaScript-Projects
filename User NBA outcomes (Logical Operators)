@@ -1,0 +1,33 @@
+var user = prompt("You have just joined the NBA Warriors! Congrats! There is still a lot ahead to winning a championship. So, how do you win? Is it SHOOTING, DUNKING, or TEAM?").toUpperCase();
+
+switch (user) {
+    case 'SHOOTING':
+    var shooter = prompt("You think it takes shooting 3 pointers to win? (YES or NO)?").toUpperCase();
+    var selfish = prompt("Are you like Kobe? (YES or NO)?").toUpperCase();
+    if(shooter === 'YES' || selfish === 'YES') {
+    console.log("You need something much more to win Championships boy!");
+} else {
+    console.log("If your not a shooter OR act like Kobe? Well, you should consider a differen career. You lose!");
+}
+    break;
+    case 'DUNKING':
+    var dunk = prompt("All right, will you become the next Lebron? (YES or NO)?").toUpperCase();
+    var lowPoints = prompt("Is that the only thing you depend on? (YES or NO)?").toUpperCase();
+    if(dunk === 'YES' && lowPoints === 'YES') {
+    console.log("Great your Lebron, but that will take years to be ready to be a champ!");
+} else {
+    console.log("Dang again you should change careers son! You lose!");
+}
+    break;
+    case 'TEAM':
+    var warriors = prompt("Great you have team, are you a team player? (YES or NO)?").toUpperCase();
+    var stephCurry = prompt("Great so when the winning shot depends if you take it or will you pass it? (SHOOT or PASS)?").toUpperCase();
+    if(warriors === 'YES' && stephCurry === 'PASS') {
+    console.log("You WINNNN. You and your team will be the 2017 NBA Champs!");
+} else {
+    console.log("You have faced the same problem the Warriors did last year. Go 73-9 with no Ring! Try again son!") ;
+} 
+    break;
+    default:
+    console.log("You suck at life!");
+}

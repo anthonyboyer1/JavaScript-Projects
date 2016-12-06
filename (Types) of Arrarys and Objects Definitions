@@ -7,3 +7,14 @@ multidimensionalArray = [["Warriors", "Stephen Curry", 30, "73-9"], ["Cavs", "Le
 Jagged Arrays: Means Arrays could be differeny in the number of elements within any array. For example in a multidimensional Array you have arrays within arrays that can have any number of elements. Meaning each array doesn't need the exact number of elements as the rest. 
 
 jaggedArray = [["Warriors", "Stephen Curry"],["Cavs", "Lebron", "2016 champs"], [30, 1]]
+
+//EXAMPLE of a Heterogenous Array with the use of boolens and objects: 
+
+var bool1 = true;
+
+var anthony = {
+    type: 'Tall',
+    race: 'White'
+};
+
+var myArray = [30, bool1,"klay Thompson", anthony ];

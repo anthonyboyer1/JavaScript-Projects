@@ -1,0 +1,20 @@
+
+//object literal notation: The ability to list keys and assign them properties along the way before a closed bracket. Object Syntax.
+
+var object1 = {
+    pointGaurd: "Stephen Curry",
+    center: "Zaza",
+};
+//object constructor: When you claim the var x = new Object(); then you assign properties to a new object in two ways. 
+// 1) When you use x.name = "Anthony";
+// 2) When you use brackets x["name"] = "Anthony";
+
+var object2 = new Object();
+object2.name = ["Warriors", "Cavs", "Spurs"];
+object2["MVP"] = 'Stepehn Curry';
+
+// Another way for an Object constructor is when you use it without calling "new Object();" and you just use brackets. 
+
+var object3 = {};
+object3.name = "Anthony";
+object2["city"] = "San Francisco";

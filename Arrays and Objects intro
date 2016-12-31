@@ -1,0 +1,18 @@
+// Good! Do you remember how to access an element of an array by offset (with the [] notation)? Check the Hint if you need help.
+//Example below
+var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+
+console.log(languages[2]);
+// JavaScript
+console.log(languages.length);
+// 5
+for (var i = 0; i < languages.length; i++) {
+    console.log(languages[i]);
+}
+*/ HTML
+CSS
+JavaScript
+Python
+Ruby
+/*
+
